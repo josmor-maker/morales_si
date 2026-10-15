@@ -33,7 +33,7 @@ I've worked in the Microsoft ecosystem from the inside: partner work at Microsof
 
 ## Let's talk
 
-If this sounds like your company: [book a conversation](https://calendly.com/joseantoniomorales/catchup-call).
+If this sounds like your company: [book a conversation](https://calendly.com/joseantoniomorales/b4contact-free-intro-call).
 
 ## Beyond consulting
 

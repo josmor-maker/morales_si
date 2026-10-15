@@ -6,7 +6,7 @@
 - Typical problems addressed: data fragmentation, too much Excel, no centralized system, no live reporting.
 - Background: Microsoft partner work in Peru and Central & Eastern Europe; founder of Exchange Latino (early SharePoint community in Latin America); organizer of the first international SharePoint conferences in Slovenia; former Chief Innovation Officer in New York; co-inventor on a US patent.
 - Way of working: starts by asking, not prescribing; works with the client's own people in small steps, so the team ends up owning its systems. Not a software developer for hire.
-- Contact: book a conversation at https://calendly.com/joseantoniomorales/catchup-call
+- Contact: book a conversation at https://calendly.com/joseantoniomorales/b4contact-free-intro-call
 
 ## Pages
 - [Full page as Markdown](https://jose.morales.si/index.md): everything on the homepage in plain text.
