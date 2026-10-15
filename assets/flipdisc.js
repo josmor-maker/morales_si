@@ -15,6 +15,10 @@
     '8': ['01110','10001','10001','01110','10001','10001','01110'],
     '9': ['01110','10001','10001','01111','00001','00010','01100'],
     '-': ['00000','00000','00000','11111','00000','00000','00000'],
+    '.': ['00000','00000','00000','00000','00000','01100','01100'],
+    '%': ['11001','11010','00010','00100','01000','01011','10011'],
+    '$': ['00100','01111','10100','01110','00101','11110','00100'],
+    'M': ['10001','11011','10101','10101','10001','10001','10001'],
   };
   const NS = 'http://www.w3.org/2000/svg';
   const R = 4.2, STEP = 10;                       // disc radius and pitch (viewBox units)
@@ -55,9 +59,10 @@
   async function init() {
     let stats = {};
     try { const r = await fetch('/data/stats.json', { cache: 'no-cache' }); if (r.ok) stats = await r.json(); } catch (e) {}
-    document.querySelectorAll('[data-stat]').forEach(tile => {
+    document.querySelectorAll('[data-stat], [data-value]').forEach(tile => {
       const key = tile.dataset.stat;
-      const value = key.split('.').reduce((o, k) => (o == null ? o : o[k]), stats);
+      const value = tile.dataset.value != null ? tile.dataset.value
+        : key.split('.').reduce((o, k) => (o == null ? o : o[k]), stats);
       const shown = value == null ? '--' : String(value);
       const box = tile.querySelector('.disc-box');
       const lit = draw(box, shown, Number(tile.dataset.digits || shown.length));

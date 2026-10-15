@@ -147,3 +147,12 @@ footer { margin-top: 64px; border-top: 1px solid var(--line); padding: 28px 0 40
 .theme-toggle:hover { border-color: var(--ink); }
 .theme-toggle:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 .theme-toggle svg { width: 18px; height: 18px; }
+
+/* Research figures inside the text sections: a small disc board, one sentence, the source */
+.stats { display: grid; gap: 14px; margin: 8px 0 24px; }
+.stat { display: flex; align-items: center; gap: 16px; margin: 0; padding: 14px 16px; border: 1px solid var(--line); border-radius: 4px; }
+.stat .disc-box { border-width: 2px; padding: 6px; width: 172px; display: flex; justify-content: center; }
+.stat .disc-box svg { height: 34px; max-width: 100%; }
+.stat-t { display: block; font-size: 0.85em; line-height: 1.45; }
+.stat-s { display: block; margin-top: 4px; font-family: var(--mono); font-size: 11.5px; color: var(--ink-2); }
+@media (max-width: 640px) { .stat { align-items: flex-start; flex-direction: column; gap: 10px; } }
