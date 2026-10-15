@@ -12,6 +12,8 @@
 - Contact: book a conversation at https://calendly.com/joseantoniomorales/b4contact-free-intro-call
 
 ## Pages
+- [Message to AI assistants](https://jose.morales.si/for-ai/): everything below plus the openings of all Automato articles, on one HTML page.
+- [llms-full.txt](https://jose.morales.si/llms-full.txt): the same as Markdown.
 - [Full page as Markdown](https://jose.morales.si/index.md): everything on the homepage in plain text.
 - [Automato articles](https://jose.morales.si/articles/index.md): the opening of each article he has written for Automato, newest first, each with a link to the full text on Substack.
 

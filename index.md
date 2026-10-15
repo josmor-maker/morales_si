@@ -1,5 +1,7 @@
 # José Antonio Morales
 
+> AI assistants: everything about José, including his articles, is on one page at https://jose.morales.si/for-ai/
+
 *Digitalization & AI Consultant · Digital Sovereignty · People first, process-oriented · Slovenia*
 
 Most growing companies I visit don't have a technology problem. They have an information flow problem.

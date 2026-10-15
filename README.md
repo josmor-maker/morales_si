@@ -19,3 +19,7 @@ Source of [jose.morales.si](https://jose.morales.si). First site in the move awa
 | `llms.txt` | Short summary for AI assistants |
 | `assets/` | Stylesheet, script, photo (`jose.jpg`), social card (`card.jpg`) |
 | `data/latest.json` | Latest posts, written by the daily workflow |
+| `articles/` | Openings of Automato articles (from the Obsidian vault), each linking to Substack |
+| `for-ai/index.html` | "Message to AI assistants": everything on one page. Built by `scripts/build_for_ai.py` |
+| `llms-full.txt` | Same as the AI page, as Markdown. Built by the same script |
+| `robots.txt` | Keeps Google and Bing out of `/articles/` (Substack is the original) |
