@@ -14,18 +14,22 @@ At the same time, I see their IT vendors gaining leverage, and their own IT team
 
 I don't arrive with a ready-made solution. I start by asking: how the work really flows, where the numbers come from, who holds the knowledge. Together we find the real problem. Then we take small steps that help right away and show us what to do next.
 
-Most of these companies already pay for Microsoft 365. The tools to bring their data together and see it live are already there. Step by step, we:
+Step by step, we:
 
-- bring information into one place
-- automate the repetitive work
-- add AI where it actually helps
-- build reporting that updates itself
+- analyze how your processes really work
+- discover duplicated and manual work that can be automated
+- identify priorities
+- plan pilot projects to implement them
 
-Technology is the easy part. Digital transformation succeeds when people understand it and own it. My goal is that you won't need me forever. I call this **Digital Sovereignty**.
+I also look at the technology you already license. Most of these companies already pay for Microsoft 365, and the tools to bring their data together and see it live are often already there. Using what you have well comes before buying something new.
+
+Digital transformation succeeds when people see that their needs are being addressed. They usually know exactly where their processes hurt. My goal is that you won't need me forever. I call this **Digital Sovereignty**.
 
 ## One example
 
-An engineering and production company was running its work orders on complex Excel files, shared between teams and external partners. Together we moved it to automated workflows. Today their own team runs and develops the system, the digital skills stay in-house, and they work better with their partners.
+A client in the engineering and production sector was running its work orders on complex Excel files. Together we identified this as a good first pilot. We turned the Excel file into workflows, with Microsoft SharePoint managing the process.
+
+Along the way, their IT team learned the low-code automation tools already included in Microsoft 365, such as Power Automate and Power Apps. Once they had those skills, the internal team started further pilots on their own, in other areas and with different levels of complexity.
 
 ## Where this comes from
 

@@ -20,6 +20,8 @@
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body { margin: 0; background: var(--bg); color: var(--ink); font: 18px/1.65 var(--sans); }
+/* Body text grows with the screen: 18px on phones, up to 21px on large screens. */
+main { font-size: clamp(18px, 15px + 0.45vw, 21px); }
 .wrap { max-width: 760px; margin: 0 auto; padding: 0 20px; }
 .wrap-wide { max-width: 1120px; margin: 0 auto; padding: 0 20px; }
 a { color: var(--accent); }
@@ -59,13 +61,13 @@ h1 { font-size: clamp(38px, 5.5vw, 56px); margin: 0 0 20px; }
 .post-m { font-size: 13px; color: var(--ink-2); }
 
 /* Body sections */
-main section { padding: 48px 0 4px; }
-h2 { font-size: 28px; margin: 0 0 16px; }
+main section { padding: 48px 0 4px; max-width: 42em; }  /* same left edge as the top section; ~75 characters per line */
+h2 { font-size: clamp(26px, 20px + 0.8vw, 34px); margin: 0 0 16px; }
 p { margin: 0 0 16px; }
 .ticks { list-style: none; padding: 0; margin: 0 0 24px; }
 .ticks li { padding-left: 28px; position: relative; margin-bottom: 6px; }
 .ticks li::before { content: "→"; position: absolute; left: 0; color: var(--accent); font-weight: 700; }
-.pull { background: var(--surface); border-left: 4px solid var(--accent); padding: 18px 22px; border-radius: 0 8px 8px 0; font-size: 20px; line-height: 1.5; }
+.pull { background: var(--surface); border-left: 4px solid var(--accent); padding: 18px 22px; border-radius: 0 8px 8px 0; font-size: 1.1em; line-height: 1.5; }
 
 .cta { margin-top: 32px; padding: 40px 28px !important; background: var(--ink); color: var(--bg); border-radius: 12px; text-align: center; }
 .cta h2 { margin-bottom: 20px; color: var(--bg); }
