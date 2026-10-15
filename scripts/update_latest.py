@@ -1,5 +1,9 @@
-"""Fetch the latest Substack posts and Bluesky posts into data/latest.json.
-Runs daily from .github/workflows/update-latest.yml. Standard library only."""
+"""Daily update, run by .github/workflows/update-latest.yml. Standard library only.
+
+- data/latest.json: the five latest Bluesky posts (the Automato cards come from the vault, written by the weekly task).
+- data/stats.json:  bluesky.posts_30d, every post José wrote on Bluesky in the past 30 days, replies included, reposts not.
+
+Substack is not contacted: it refuses requests from GitHub's servers."""
 import json, urllib.request, xml.etree.ElementTree as ET
 from email.utils import parsedate_to_datetime
 from pathlib import Path
@@ -10,6 +14,7 @@ FEEDS = {
 }
 BLUESKY_HANDLE = "morales.si"
 OUT = Path(__file__).resolve().parent.parent / "data" / "latest.json"
+STATS = OUT.parent / "stats.json"
 
 
 def get(url):
@@ -64,15 +69,40 @@ def bluesky():
     return out[:5]
 
 
+def bluesky_posts_30d():
+    """Count own posts and replies of the last 30 days, paging back through the author feed."""
+    from datetime import datetime, timedelta, timezone
+    since = datetime.now(timezone.utc) - timedelta(days=30)
+    count, cursor = 0, ""
+    for _ in range(20):  # at most 2,000 posts back
+        url = ("https://public.api.bsky.app/xrpc/app.bsky.feed.getAuthorFeed"
+               f"?actor={BLUESKY_HANDLE}&limit=100&filter=posts_with_replies" + (f"&cursor={cursor}" if cursor else ""))
+        page = json.loads(get(url))
+        for f in page.get("feed", []):
+            if f.get("reason"):
+                continue  # a repost of someone else's post
+            created = f["post"]["record"].get("createdAt", "")
+            when = datetime.fromisoformat(created.replace("Z", "+00:00"))
+            if when < since:
+                return count
+            count += 1
+        cursor = page.get("cursor")
+        if not cursor:
+            return count
+    return count
+
+
 if __name__ == "__main__":
     old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
-    fresh = {
-        "automato": substack("Automato", FEEDS["Automato"]),
-        "posts": substack("Growing Fearless", FEEDS["Growing Fearless"]),
-        "bluesky": bluesky() or None,
-    }
-    # A feed that fails today keeps yesterday's items rather than emptying the page.
-    data = {k: (v if v is not None else old.get(k, [])) for k, v in fresh.items()}
-    OUT.parent.mkdir(exist_ok=True)
-    OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print({k: len(v) for k, v in data.items()})
+    latest = bluesky()
+    if latest:  # a failed fetch keeps yesterday's posts rather than emptying the page
+        old["bluesky"] = latest
+    OUT.write_text(json.dumps(old, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+
+    stats = json.loads(STATS.read_text(encoding="utf-8")) if STATS.exists() else {}
+    try:
+        stats.setdefault("bluesky", {})["posts_30d"] = bluesky_posts_30d()
+    except Exception as e:
+        print(f"skip bluesky count: {e}")
+    STATS.write_text(json.dumps(stats, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print("bluesky posts:", len(old.get("bluesky", [])), "| posts in 30 days:", stats.get("bluesky", {}).get("posts_30d"))
