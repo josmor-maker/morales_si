@@ -20,12 +20,18 @@
   --sans: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 }
+/* Dark: follows the device, unless the visitor picked a theme with the switch (stored in data-theme). */
 @media (prefers-color-scheme: dark) {
-  :root {
+  :root:not([data-theme="light"]) {
     --bg: #0e0e0e; --surface: #181817; --ink: #f0f0ec; --ink-2: #a2a29d; --line: #2c2c2a;
     --accent: #f0f0ec; --accent-hover: #d6d6d1; --accent-ink: #0e0e0e; --tomato: #f0f0ec;
-    --disc-on: #f0f0ec; --disc-off: #242422; --board: #121211;
+    --disc-on: #f0f0ec; --disc-off: #242422; --board: #121211; color-scheme: dark;
   }
+}
+:root[data-theme="dark"] {
+    --bg: #0e0e0e; --surface: #181817; --ink: #f0f0ec; --ink-2: #a2a29d; --line: #2c2c2a;
+    --accent: #f0f0ec; --accent-hover: #d6d6d1; --accent-ink: #0e0e0e; --tomato: #f0f0ec;
+    --disc-on: #f0f0ec; --disc-off: #242422; --board: #121211; color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -134,3 +140,10 @@ footer { margin-top: 64px; border-top: 1px solid var(--line); padding: 28px 0 40
 .tile-s { display: block; margin-top: 4px; font-family: var(--mono); font-size: 12.5px; color: var(--ink-2); }
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
 @media (max-width: 760px) { .tiles { grid-template-columns: 1fr; gap: 22px; } .disc-box svg { height: 52px; } .tile-t { font-size: 19px; } }
+
+/* Light/dark switch, top right */
+.theme-toggle { position: absolute; top: 16px; right: 16px; z-index: 5; width: 40px; height: 40px; display: grid; place-items: center;
+  background: var(--bg); color: var(--ink); border: 1px solid var(--line); border-radius: 50%; cursor: pointer; padding: 0; }
+.theme-toggle:hover { border-color: var(--ink); }
+.theme-toggle:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.theme-toggle svg { width: 18px; height: 18px; }

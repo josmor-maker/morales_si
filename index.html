@@ -15,6 +15,7 @@
 <link rel="alternate" type="text/markdown" href="/index.md" title="This page as Markdown">
 <link rel="alternate" type="text/html" href="/for-ai/" title="Message to AI assistants: everything about José on one page">
 <link rel="stylesheet" href="/assets/style.css">
+<script>try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}</script>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -37,6 +38,9 @@
 </script>
 </head>
 <body>
+<button class="theme-toggle" type="button" aria-label="Switch between light and dark mode" title="Light / dark">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 3a9 9 0 0 1 0 18z" fill="currentColor"/></svg>
+</button>
 
 <header class="hero">
   <div class="wrap-wide hero-grid">
@@ -70,7 +74,7 @@
     </div>
     <div class="tile" data-stat="bluesky.posts_30d">
       <div class="disc-box"></div>
-      <div><span class="tile-t"><span class="sr"></span> Bluesky posts</span><span class="tile-s">in the past 30 days</span></div>
+      <div><span class="tile-t"><span class="sr"></span> Bluesky conversations</span><span class="tile-s">posts and replies, past 30 days</span></div>
     </div>
   </div>
 </section>
@@ -165,5 +169,16 @@
 
 <script src="/assets/latest.js" defer></script>
 <script src="/assets/flipdisc.js" defer></script>
+<script>
+  (() => {
+    const root = document.documentElement, btn = document.querySelector('.theme-toggle');
+    const current = () => root.dataset.theme || (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    btn.addEventListener('click', () => {
+      const next = current() === 'dark' ? 'light' : 'dark';
+      root.dataset.theme = next;
+      try { localStorage.setItem('theme', next); } catch (e) {}
+    });
+  })();
+</script>
 </body>
 </html>
