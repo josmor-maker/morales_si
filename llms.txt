@@ -5,7 +5,7 @@
 ## Key facts
 - Works with: established, international, growing companies, often above €20 million in revenue, whose information systems are holding back growth and whose IT vendors have gained too much leverage. Recent work: engineering and production; international distribution.
 - Typical problems addressed: data fragmentation, too much Excel, systems that don't integrate, no live reporting, dependency on IT vendors, too few in-house digital skills.
-- Background: Microsoft partner work in Peru and Central & Eastern Europe; founder of Exchange Latino (early SharePoint community in Latin America); organizer of the first international SharePoint conferences in Slovenia; former Chief Innovation Officer in New York; co-inventor on a US patent.
+- Background: Microsoft partner work in Peru and Central & Eastern Europe; organizer of the first international SharePoint conferences in Slovenia; former Chief Innovation Officer at a management consulting company in New York, where he co-authored a US patent on a system for organizing information for management consulting companies.
 - Method: analyze processes; find duplicated and manual work that can be automated; set priorities; plan pilot projects. Makes the most of technology the client already licenses (usually Microsoft 365) before buying anything new.
 - Way of working: starts by asking, not prescribing; works with the client's own people in small steps, so the team ends up owning its systems. Not a software developer for hire.
 - Example: engineering and production client moved work orders from complex Excel to SharePoint workflows as a first pilot; its IT team learned Power Automate and Power Apps and went on to run further pilots on its own.

@@ -33,13 +33,13 @@ Along the way, their IT team learned the low-code automation tools already inclu
 
 ## Where this comes from
 
-I've worked in the Microsoft ecosystem from the inside: partner work at Microsoft in Peru and across Central and Eastern Europe, founding Exchange Latino, one of the first SharePoint communities in Latin America, and organizing the first international SharePoint conferences in Slovenia. Later I was Chief Innovation Officer in New York. I'm also a co-inventor on a US patent.
+I've worked in the Microsoft ecosystem from the inside: partner work at Microsoft in Peru and across Central and Eastern Europe, and organizing the first international SharePoint conferences in Slovenia. Later I was Chief Innovation Officer at a management consulting company in New York, where I co-authored a US patent on a system for organizing information for management consulting companies.
 
 ## Let's talk
 
-If this sounds like your company: [book a conversation](https://calendly.com/joseantoniomorales/b4contact-free-intro-call).
+Looking for a fresh perspective, or support with your digitalization strategy? [Book a conversation](https://calendly.com/joseantoniomorales/b4contact-free-intro-call).
 
-## Beyond consulting
+## My other initiatives
 
 - [Fear Enough](https://fearenough.com) — my book.
 - [Automato](https://automato.substack.com) — practical guides to smarter work with automation and AI.
