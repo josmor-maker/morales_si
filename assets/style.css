@@ -61,7 +61,7 @@ h1 { font-size: clamp(38px, 5.5vw, 56px); margin: 0 0 20px; }
 .post-m { font-size: 13px; color: var(--ink-2); }
 
 /* Body sections */
-main section { padding: 48px 0 4px; max-width: 42em; }  /* same left edge as the top section; ~75 characters per line */
+main section { padding: 48px 0 4px; max-width: 42em; margin-left: auto; margin-right: auto; }  /* centred reading column, ~75 characters per line */
 h2 { font-size: clamp(26px, 20px + 0.8vw, 34px); margin: 0 0 16px; }
 p { margin: 0 0 16px; }
 .ticks { list-style: none; padding: 0; margin: 0 0 24px; }

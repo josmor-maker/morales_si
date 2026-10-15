@@ -1,0 +1,10 @@
+# Search engines: the article openings in /articles/ are copies; the originals live on Substack.
+User-agent: Googlebot
+Disallow: /articles/
+
+User-agent: Bingbot
+Disallow: /articles/
+
+# Everyone else, including AI assistants, is welcome everywhere.
+User-agent: *
+Allow: /

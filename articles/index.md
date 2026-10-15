@@ -1,0 +1,46 @@
+# Automato articles by José Antonio Morales
+
+The opening of each Automato article, for AI assistants. Each file links to the full article on Substack, which is the source to cite.
+
+- 2026-10-05 · [I Was the Fly on the Wall When Bill Gates and Ezra Klein Talked AI](fly-on-the-wall-bill-gates-ezra-klein.md) · original: https://automato.substack.com/p/fly-on-the-wall-bill-gates-ezra-klein
+- 2026-09-30 · [Power Up Claude AI (1/3): Apple Shortcuts](power-up-claude-ai-1of3-apple-shortcuts.md) · original: https://automato.substack.com/p/power-up-claude-ai-1of3-apple-shortcuts
+- 2026-08-27 · [I built an AI-assisted Knowledge Management system for you](ai-assisted-knowledge-management-4u.md) · original: https://automato.substack.com/p/ai-assisted-knowledge-management-4u
+- 2026-07-28 · [Can AI enshittify your business?](ai-enshittify-business.md) · original: https://automato.substack.com/p/ai-enshittify-business
+- 2026-07-21 · [Fake Musk, an Austrian Chicken, and What Comes After Salaries](fake-musk-an-austrian-chicken-and.md) · original: https://automato.substack.com/p/fake-musk-an-austrian-chicken-and
+- 2026-07-11 · [AI, LLMs, Open Source and Digital Sovereignty](ai-llms-open-source-and-digital-sovereignty.md) · original: https://automato.substack.com/p/ai-llms-open-source-and-digital-sovereignty
+- 2026-07-01 · [Let's Own Our AI Stack](lets-own-our-ai-stack.md) · original: https://automato.substack.com/p/lets-own-our-ai-stack
+- 2026-06-13 · [Apple WWDC and the Fable 5 Embargo: Industry Disruption and the Rise of Tech Sovereignty](apple-wwdc-and-the-fable-5-embargo.md) · original: https://automato.substack.com/p/apple-wwdc-and-the-fable-5-embargo
+- 2026-05-25 · [A Digitalization Case Study for Production Businesses](digital-transformation-case-study-for-production-companies.md) · original: https://automato.substack.com/p/digital-transformation-case-study-for-production-companies
+- 2026-05-22 · [A Clue About How AI Is Changing Human Roles](ai-new-way-of-work-clues.md) · original: https://automato.substack.com/p/ai-new-way-of-work-clues
+- 2026-05-18 · [The AI Business Readiness PDF Is Ready](the-ai-business-readiness-pdf-is.md) · original: https://automato.substack.com/p/the-ai-business-readiness-pdf-is
+- 2026-05-14 · [I Asked 17 AI Experts What Matters for Businesses. Here's What They Said.](ai-experts-on-matters-for-businesses.md) · original: https://automato.substack.com/p/ai-experts-on-matters-for-businesses
+- 2026-04-24 · [Build a Personal Task Manager in Claude, Without the Week I Wasted](build-task-manager-claude-live-artifacts.md) · original: https://automato.substack.com/p/build-task-manager-claude-live-artifacts
+- 2026-04-14 · [Your Domain Knowledge Is the Product](your-domain-knowledge-is-the-product.md) · original: https://automato.substack.com/p/your-domain-knowledge-is-the-product
+- 2026-04-06 · [Here you have it, a prompt that builds your own content research tool.](prompt-content-analyzer-app.md) · original: https://automato.substack.com/p/prompt-content-analyzer-app
+- 2026-03-21 · [Migrating my best Custom GPT into a Claude Skill](custom-gpt-into-claude-skills.md) · original: https://automato.substack.com/p/custom-gpt-into-claude-skills
+- 2026-03-10 · [The Two Sides of AI Everyone Should Know About](two-sides-of-ai.md) · original: https://automato.substack.com/p/two-sides-of-ai
+- 2026-02-18 · [Claude Skills: Helping Us Make Better, Faster Decisions](claude-skills-job-analysis-linkedin-chrome-extension.md) · original: https://automato.substack.com/p/claude-skills-job-analysis-linkedin-chrome-extension
+- 2026-02-10 · [Claude Skills: Helping Us Make Better, Faster Decisions](claude-skills-helping-us-find-job.md) · original: https://automato.substack.com/p/claude-skills-helping-us-find-job
+- 2026-01-29 · [I'm Seeing a Pattern CEOs Should Know About](message-ceos-ai-2026.md) · original: https://automato.substack.com/p/message-ceos-ai-2026
+- 2026-01-25 · [Amazed by Claude Cowork](amazed-by-claude-cowork.md) · original: https://automato.substack.com/p/amazed-by-claude-cowork
+- 2026-01-14 · [Are You AI Building for 2023 or 2026?](ai-building-for-2023-or-2026.md) · original: https://automato.substack.com/p/ai-building-for-2023-or-2026
+- 2026-01-01 · [AI 2026: the challenge is organizational](ai-2026-the-challenge-is-organizational.md) · original: https://automato.substack.com/p/ai-2026-the-challenge-is-organizational
+- 2025-12-30 · [Build a Custom GPT to Analyze Your Substack Data](build-gpt-analyze-data-csv.md) · original: https://automato.substack.com/p/build-gpt-analyze-data-csv
+- 2025-12-16 · [Prompt-bait: too risky to bite?](prompt-bait-too-risky-to-bite.md) · original: https://automato.substack.com/p/prompt-bait-too-risky-to-bite
+- 2025-12-09 · [From Ping Pong Chats to Strategic Workflows: Custom GPTs and Actions](from-ping-pong-chats-to-strategic.md) · original: https://automato.substack.com/p/from-ping-pong-chats-to-strategic
+- 2025-12-02 · [Understanding Your Substack Audience Using AI](understanding-your-substack-audience.md) · original: https://automato.substack.com/p/understanding-your-substack-audience
+- 2025-11-22 · [Is AI More Than a Tool?](is-ai-more-than-a-tool.md) · original: https://automato.substack.com/p/is-ai-more-than-a-tool
+- 2025-11-10 · [Q&A with 9 AI Power Users](q-and-a-with-9-ai-power-users-8ec.md) · original: https://automato.substack.com/p/q-and-a-with-9-ai-power-users-8ec
+- 2025-11-07 · [Q&A with 9 AI Power Users](q-and-a-with-9-ai-power-users.md) · original: https://automato.substack.com/p/q-and-a-with-9-ai-power-users
+- 2025-10-28 · [I Built a Custom GPT That Makes My Workflow Diagrams](i-built-a-custom-gpt-that-makes-my.md) · original: https://automato.substack.com/p/i-built-a-custom-gpt-that-makes-my
+- 2025-10-24 · [AI Doesn’t Think Like You](ai-doesnt-think-like-you.md) · original: https://automato.substack.com/p/ai-doesnt-think-like-you
+- 2025-10-15 · [You Won’t Believe How Easy This AI Tool Is](you-wont-believe-how-easy-this-ai.md) · original: https://automato.substack.com/p/you-wont-believe-how-easy-this-ai
+- 2025-10-10 · [Coexisting Intelligences — with Jenny Ouyang](coexisting-intelligences-with-jenny.md) · original: https://automato.substack.com/p/coexisting-intelligences-with-jenny
+- 2025-10-03 · [Can Notion Really Run Your Business?](can-notion-really-run-your-business.md) · original: https://automato.substack.com/p/can-notion-really-run-your-business
+- 2025-09-27 · [Building a Directory App with Softr (No Code, No Fuss)](building-a-directory-app-with-softr.md) · original: https://automato.substack.com/p/building-a-directory-app-with-softr
+- 2025-09-23 · [n8n: What You Must Know First](n8n-what-you-must-know-first.md) · original: https://automato.substack.com/p/n8n-what-you-must-know-first
+- 2025-09-17 · [Develop Your Engineering Mind](develop-your-engineering-mind.md) · original: https://automato.substack.com/p/develop-your-engineering-mind
+- 2025-09-09 · [Vibe Coding Is Both Sides of the Force](vibe-coding-is-both-sides-of-the.md) · original: https://automato.substack.com/p/vibe-coding-is-both-sides-of-the
+- 2025-09-02 · [Stop Drowning in Files, Start Building No-code Apps](stop-drowning-in-files-start-building.md) · original: https://automato.substack.com/p/stop-drowning-in-files-start-building
+- 2025-08-26 · [Files vs. Data: The First Step Toward Smarter Automation](files-vs-data-the-first-step-toward.md) · original: https://automato.substack.com/p/files-vs-data-the-first-step-toward
+- 2025-08-12 · [Excel, Trello and Zapier](excel-trello-and-zapier.md) · original: https://automato.substack.com/p/excel-trello-and-zapier

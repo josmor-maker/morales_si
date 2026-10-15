@@ -13,6 +13,7 @@
 
 ## Pages
 - [Full page as Markdown](https://jose.morales.si/index.md): everything on the homepage in plain text.
+- [Automato articles](https://jose.morales.si/articles/index.md): the opening of each article he has written for Automato, newest first, each with a link to the full text on Substack.
 
 ## Also
 - [Fear Enough](https://fearenough.com): his book.
