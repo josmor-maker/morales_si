@@ -13,7 +13,11 @@ OUT = Path(__file__).resolve().parent.parent / "data" / "latest.json"
 
 
 def get(url):
-    req = urllib.request.Request(url, headers={"User-Agent": "jose.morales.si updater"})
+    # Substack refuses unknown clients, so identify as an ordinary feed reader.
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+        "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
+    })
     with urllib.request.urlopen(req, timeout=30) as r:
         return r.read()
 
