@@ -2,13 +2,13 @@
 
 *Digitalization & AI Consultant · Digital Sovereignty · People first, process-oriented · Slovenia*
 
-Most companies I visit don't have a technology problem. They have an information problem.
+Most growing companies I visit don't have a technology problem. They have an information flow problem.
 
 ## What I see
 
-The picture is often the same. Important numbers live in Excel files that only a few people understand. Each department keeps its own version of the truth. Reporting means someone spends days copying data by hand, and by the time the report is ready, it's already out of date.
+I work with established companies that have earned their place: international business, steady growth, often well above €20 million in revenue. They are effective and competitive. But growth asks more of their information than their systems can give: data scattered across departments and spreadsheets, systems that don't talk to each other, reports that arrive after the decision was needed.
 
-Nobody is to blame. Systems grow one spreadsheet at a time. But the cost is real. Decisions get made on yesterday's data. Knowledge leaves when a person leaves. And the company depends more and more on whoever built the file, or on the vendor promising to fix everything.
+At the same time, I see their IT vendors gaining leverage, and their own IT teams struggling to build skills in-house. Every new need becomes another contract. That's the dependency I help them out of.
 
 ## How I work
 
@@ -25,7 +25,7 @@ Technology is the easy part. Digital transformation succeeds when people underst
 
 ## One example
 
-A company was running its operations on complex Excel files. Together we moved it to automated workflows. Today their own team runs and develops the system, and they work better with their external partners.
+A growing company was running its work orders on complex Excel files, shared between teams and external partners. Together we moved it to automated workflows. Today their own team runs and develops the system, the digital skills stay in-house, and they work better with their partners.
 
 ## Where this comes from
 

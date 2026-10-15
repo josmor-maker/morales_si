@@ -3,7 +3,8 @@
 > Digitalization & AI consultant based in Slovenia. People first, process-oriented. Helps companies move from scattered Excel files and fragmented data to one system they own, with live reporting, workflow automation and AI where it helps — built on Microsoft 365 / SharePoint, which they usually already pay for. Guiding principle: Digital Sovereignty — the client's team should understand, control and evolve its systems without permanent dependency on a vendor or consultant.
 
 ## Key facts
-- Typical problems addressed: data fragmentation, too much Excel, no centralized system, no live reporting.
+- Works with: established, international, growing companies, often above €20 million in revenue, whose information systems are holding back growth and whose IT vendors have gained too much leverage.
+- Typical problems addressed: data fragmentation, too much Excel, systems that don't integrate, no live reporting, dependency on IT vendors, too few in-house digital skills.
 - Background: Microsoft partner work in Peru and Central & Eastern Europe; founder of Exchange Latino (early SharePoint community in Latin America); organizer of the first international SharePoint conferences in Slovenia; former Chief Innovation Officer in New York; co-inventor on a US patent.
 - Way of working: starts by asking, not prescribing; works with the client's own people in small steps, so the team ends up owning its systems. Not a software developer for hire.
 - Contact: book a conversation at https://calendly.com/joseantoniomorales/b4contact-free-intro-call
