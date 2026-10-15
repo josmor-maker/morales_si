@@ -1,4 +1,42 @@
 {
-  "posts": [],
+  "automato": [
+    {
+      "source": "Automato",
+      "title": "Fake Musk, an Austrian Chicken, and What Comes After Salaries",
+      "subtitle": "What a debunked Musk quote and a century-old chicken breed taught me about self-reliance.",
+      "url": "https://automato.substack.com/p/fake-musk-an-austrian-chicken-and",
+      "date": "2026-07-21T08:00:00+00:00"
+    },
+    {
+      "source": "Automato",
+      "title": "AI, LLMs, Open Source and Digital Sovereignty",
+      "subtitle": "Jenny made my homework but I added something else :)",
+      "url": "https://automato.substack.com/p/ai-llms-open-source-and-digital-sovereignty",
+      "date": "2026-07-11T08:00:00+00:00"
+    },
+    {
+      "source": "Automato",
+      "title": "Let's Own Our AI Stack",
+      "subtitle": "For makers, builders, knowledge workers, and freelancers using AI for life and work",
+      "url": "https://automato.substack.com/p/lets-own-our-ai-stack",
+      "date": "2026-07-01T08:00:00+00:00"
+    }
+  ],
+  "posts": [
+    {
+      "source": "Growing Fearless",
+      "title": "2026 Beyond the Surface",
+      "subtitle": "",
+      "url": "https://growingfearless.substack.com/p/2026-beyond-the-surface",
+      "date": "2026-01-10T08:00:00+00:00"
+    },
+    {
+      "source": "Growing Fearless",
+      "title": "From Autopilot To Authorship",
+      "subtitle": "",
+      "url": "https://growingfearless.substack.com/p/from-autopilot-to-authorship",
+      "date": "2026-01-03T08:00:00+00:00"
+    }
+  ],
   "bluesky": []
 }

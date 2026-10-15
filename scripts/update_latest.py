@@ -18,21 +18,24 @@ def get(url):
         return r.read()
 
 
-def substack():
+def substack(source, url, limit=3):
+    """Latest posts from one Substack feed. Returns None if the feed can't be read,
+    so the caller can keep the previous data instead of blanking the page."""
+    try:
+        root = ET.fromstring(get(url))
+    except Exception as e:
+        print(f"skip {source}: {e}")
+        return None
     posts = []
-    for source, url in FEEDS.items():
-        try:
-            root = ET.fromstring(get(url))
-            for item in root.iter("item"):
-                posts.append({
-                    "source": source,
-                    "title": item.findtext("title", "").strip(),
-                    "url": item.findtext("link", "").strip(),
-                    "date": parsedate_to_datetime(item.findtext("pubDate")).isoformat(),
-                })
-        except Exception as e:
-            print(f"skip {source}: {e}")
-    return sorted(posts, key=lambda p: p["date"], reverse=True)[:5]
+    for item in root.iter("item"):
+        posts.append({
+            "source": source,
+            "title": item.findtext("title", "").strip(),
+            "subtitle": (item.findtext("description") or "").strip(),
+            "url": item.findtext("link", "").strip(),
+            "date": parsedate_to_datetime(item.findtext("pubDate")).isoformat(),
+        })
+    return sorted(posts, key=lambda p: p["date"], reverse=True)[:limit]
 
 
 def bluesky():
@@ -58,7 +61,14 @@ def bluesky():
 
 
 if __name__ == "__main__":
-    data = {"posts": substack(), "bluesky": bluesky()}
+    old = json.loads(OUT.read_text(encoding="utf-8")) if OUT.exists() else {}
+    fresh = {
+        "automato": substack("Automato", FEEDS["Automato"]),
+        "posts": substack("Growing Fearless", FEEDS["Growing Fearless"]),
+        "bluesky": bluesky() or None,
+    }
+    # A feed that fails today keeps yesterday's items rather than emptying the page.
+    data = {k: (v if v is not None else old.get(k, [])) for k, v in fresh.items()}
     OUT.parent.mkdir(exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
-    print(f"wrote {len(data['posts'])} posts, {len(data['bluesky'])} bluesky")
+    print({k: len(v) for k, v in data.items()})

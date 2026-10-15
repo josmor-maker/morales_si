@@ -1,6 +1,6 @@
 # José Antonio Morales
 
-*Digitalization and AI advisor · Digital Sovereignty · Slovenia*
+*Digitalization & AI Consultant · Digital Sovereignty · People first, process-oriented · Slovenia*
 
 Most companies I visit don't have a technology problem. They have an information problem.
 
@@ -12,14 +12,16 @@ Nobody is to blame. Systems grow one spreadsheet at a time. But the cost is real
 
 ## How I work
 
-Most of these companies already pay for Microsoft 365. The tools to bring their data together and see it live are already there. I help them use what they own:
+I don't arrive with a ready-made solution. I start by asking: how the work really flows, where the numbers come from, who holds the knowledge. Together we find the real problem. Then we take small steps that help right away and show us what to do next.
+
+Most of these companies already pay for Microsoft 365. The tools to bring their data together and see it live are already there. Step by step, we:
 
 - bring information into one place
 - automate the repetitive work
 - add AI where it actually helps
 - build reporting that updates itself
 
-My goal is that you won't need me forever. Your team should understand its systems, control them, and change them on its own. I call this **Digital Sovereignty**.
+Technology is the easy part. Digital transformation succeeds when people understand it and own it. My goal is that you won't need me forever. I call this **Digital Sovereignty**.
 
 ## One example
 
