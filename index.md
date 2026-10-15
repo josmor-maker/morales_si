@@ -8,7 +8,7 @@ Most growing companies I visit don't have a technology problem. They have an inf
 
 I work with established companies that have earned their place: international business, steady growth, often well above €20 million in revenue. They are effective and competitive. But growth asks more of their information than their systems can give: data scattered across departments and spreadsheets, systems that don't talk to each other, reports that arrive after the decision was needed.
 
-At the same time, I see their IT vendors gaining leverage, and their own IT teams struggling to build skills in-house. Every new need becomes another contract. That's the dependency I help them out of.
+At the same time, I see their IT vendors gaining leverage, and their own IT teams struggling to build skills in-house. Every new need becomes another contract. That's the dependency I help them out of. My recent work has been with companies in engineering and production, and in international distribution.
 
 ## How I work
 
@@ -25,7 +25,7 @@ Technology is the easy part. Digital transformation succeeds when people underst
 
 ## One example
 
-A growing company was running its work orders on complex Excel files, shared between teams and external partners. Together we moved it to automated workflows. Today their own team runs and develops the system, the digital skills stay in-house, and they work better with their partners.
+An engineering and production company was running its work orders on complex Excel files, shared between teams and external partners. Together we moved it to automated workflows. Today their own team runs and develops the system, the digital skills stay in-house, and they work better with their partners.
 
 ## Where this comes from
 
