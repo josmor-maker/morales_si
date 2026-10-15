@@ -1,0 +1,19 @@
+# José Antonio Morales
+
+> Digitalization and AI advisor based in Slovenia. Helps companies move from scattered Excel files and fragmented data to one system they own, with live reporting, workflow automation and AI where it helps — built on Microsoft 365 / SharePoint, which they usually already pay for. Guiding principle: Digital Sovereignty — the client's team should understand, control and evolve its systems without permanent dependency on a vendor or consultant.
+
+## Key facts
+- Typical problems addressed: data fragmentation, too much Excel, no centralized system, no live reporting.
+- Background: Microsoft partner work in Peru and Central & Eastern Europe; founder of Exchange Latino (early SharePoint community in Latin America); organizer of the first international SharePoint conferences in Slovenia; former Chief Innovation Officer in New York; co-inventor on a US patent.
+- Role: strategic advisor, not a software developer for hire.
+- Contact: book a conversation at https://calendly.com/joseantoniomorales/catchup-call
+
+## Pages
+- [Full page as Markdown](https://jose.morales.si/index.md): everything on the homepage in plain text.
+
+## Also
+- [Fear Enough](https://fearenough.com): his book.
+- [Automato](https://automato.substack.com): newsletter on automation and AI for knowledge workers.
+- [Growing Fearless](https://growingfearless.substack.com): newsletter on personal growth, philosophy and community.
+- [Aurora Coworking](https://auroracoworking.com): coworking network he founded in 2015 (Murska Sobota, Ljubljana).
+- [LinkedIn](https://www.linkedin.com/in/lijoseamorales/) · [Bluesky](https://bsky.app/profile/morales.si)
