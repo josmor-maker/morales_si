@@ -47,6 +47,11 @@
   ],
   "bluesky": [
     {
+      "text": "Can you imagine a day when websites are no longer needed?\n\nToday, the visitor brings their own LLM. I’m not talking about GEO, making old websites visible to AI. I’m talking about sites written for the visitor’s LLM to read.\n\nhttps://substack.com/@joseantoniomorales/note/c-357577987",
+      "url": "https://bsky.app/profile/morales.si/post/3mxww4zhbwn2u",
+      "date": "2026-10-15T20:37:58.568Z"
+    },
+    {
       "text": "Own your business and your creative process first. Depending on a platform is a high-risk strategy. Build something real — offline, grounded, yours — and let the digital version grow from that foundation.\n\nhttps://substack.com/@joseantoniomorales/note/c-269753391",
       "url": "https://bsky.app/profile/morales.si/post/3mxvlcfenvf26",
       "date": "2026-10-15T07:51:27.078Z"
@@ -65,11 +70,6 @@
       "text": "Traditional IT is deterministic. Same input, same output. Always.\n\nAI is probabilistic. Context shapes the result. That's not a bug. That's the design.\n\nExpecting one to behave like the other is the mistake.\n\nhttps://substack.com/profile/17146826-jose-antonio-morales/note/c-236746989",
       "url": "https://bsky.app/profile/morales.si/post/3mxmr667ltb2r",
       "date": "2026-10-11T19:42:30.270Z"
-    },
-    {
-      "text": "When I subscribe to Claude or ChatGPT, I'm essentially renting processing power that lives somewhere else. My device is just the interface.\n\nWe keep oscillating between centralized and distributed. Every generation thinks it invented the new model. It never does.",
-      "url": "https://bsky.app/profile/morales.si/post/3mxkbkawpe72w",
-      "date": "2026-10-10T19:57:36.513Z"
     }
   ]
 }
