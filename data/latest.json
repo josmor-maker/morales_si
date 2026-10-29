@@ -47,6 +47,11 @@
   ],
   "bluesky": [
     {
+      "text": "You don't need to sell software anymore — you engineer a prompt and give it to your customer.\nThey customize it themselves.\n\nThe prompt guides them through connectors, databases, apps.\nAnd improvements? Also in the prompt.\n\nhttps://substack.com/@joseantoniomorales/note/c-234013646",
+      "url": "https://bsky.app/profile/morales.si/post/3myxdmdgyoc2r",
+      "date": "2026-10-28T18:04:22.410Z"
+    },
+    {
       "text": "The idea always sounds more useful than the reality.\n\nI over-engineered most of my ideas for apps and workflows with AI. Added cool functionality and integrations I actually don't use.\n\nIs this really useful, or just exciting to build?\n\nhttps://substack.com/@joseantoniomorales/note/c-276566837",
       "url": "https://bsky.app/profile/morales.si/post/3myv2h3lclq2y",
       "date": "2026-10-27T20:15:03.455Z"
@@ -65,11 +70,6 @@
       "text": "I take Claude similarly to working with a human assistant, imperfect, well-intentioned, and always improving.\n\nBut now more than ever, Claude helps me learn and build software and automations that I would not be able to do by myself so efficiently.",
       "url": "https://bsky.app/profile/morales.si/post/3myni42dwg22p",
       "date": "2026-10-24T19:58:06.850Z"
-    },
-    {
-      "text": "A new app helps EU funding applicants write better proposals.\nThe same app scores those proposals for the evaluators.\n\nWhen the coach and the judge are the same system — what exactly is being measured?\n\nhttps://substack.com/profile/17146826-jose-antonio-morales/note/c-265851491",
-      "url": "https://bsky.app/profile/morales.si/post/3myktkm4ylk2e",
-      "date": "2026-10-23T18:45:07.228Z"
     }
   ]
 }
